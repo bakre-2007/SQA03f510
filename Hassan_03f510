@@ -10,3 +10,7 @@ string[] customers; // Array to store the names of the customers for each sale
 // Prompt user for input
 print "Enter the number of sales made: ";
 numSales = getInput();
+
+// Initialize arrays with user-specified size
+sales = new int[numSales];
+customers = new string[numSales];
